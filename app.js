@@ -8,9 +8,6 @@ dotenv.config()
 const app = express();
 const PORT = process.env.PORT || 10000;
 
-app.get('/', (req, res) => {
-    res.json('Workinng fine')
-})
 app.set("json spaces", 4);
 
 app.use(cors())
