@@ -2,7 +2,7 @@ import express from 'express'
 
 const router = express.Router()
 
-router.get('/api/info', (req, res) => {
+router.get('/', (req, res) => {
     res.json({
         "email": "tapereyetunde@gmail.com",
         "current_datetime": new Date().toISOString(),
