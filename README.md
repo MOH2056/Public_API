@@ -36,6 +36,6 @@ npm install
 node index.js
 ```
 
-4. **Open http://localhost:4000/api/info in a browser or use Postman**
+4. **Open http://localhost:4000 in a browser or use Postman**
 
 https://hng.tech/hire/nodejs-developers
