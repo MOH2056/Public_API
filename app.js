@@ -14,7 +14,7 @@ app.set("json spaces", 4);
 app.use(cors())
 app.use(express.json())
 
-app.use('/', router)
+app.use('/api/info', router)
 
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`Server is running on ${PORT}`)
